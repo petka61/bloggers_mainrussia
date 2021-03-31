@@ -466,8 +466,14 @@ div.foooter_contacts_wrapper a img.logo {
   top: 80%;
 right: 50%;
 }
+.hamburger-menu {
+  display: none;
+}
 
 @media (max-width: 640px) {
+  .hamburger-menu {
+    display: block;
+  }
   .trends-article {
       width: 47%;
     }
