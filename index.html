@@ -9,9 +9,8 @@
   <title> </title>
 </head>
 
-<body>
 
-  <div class="wrapper">
+  <body class="wrapper">
     <header class="header">
       <div class="header-container">
         <a href="#0"><img src="images/logo.svg" alt="логотип" class="logo"></a>
@@ -60,219 +59,363 @@
         <h1 class="trends-header">Блогеры</h1>
         <div class="filter">
           <span class="filter_title text">Сортировать по:</span>
-          <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">выберите площадку</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="javascript:void(0);" style="color: #EFF3F540;">Например: Путешествия</a>
-              <a stylehref="#">Все</a>
-              <a href="#">DIY</a>
-              <a href="#">Авто</a>
-              <a href="#">Авторское</a>
-              <a href="#">Анбоксинг</a>
-              <a href="#">Еда</a>
-              <a href="#">Животные</a>
-              <a href="#">Игры</a>
-              <a href="#">Иностранные языки</a>
-              <a href="#">Кино</a>
-              <a href="#">Красота</a>
+          <div class="select">
+            <div class="select__backdrop" data-select="backdrop"></div>
+            <button type="button" class="select__trigger" data-select="trigger">
+              выберите площадку
+            </button>
+            <div class="select__dropdown">
+              <ul class="select__items">
+                <li class="select__item" data-select="item">Например: Путешествия</li>
+                <li class="select__item select__item_selected" data-select="item">Все</li>
+                <li class="select__item" data-select="item">DIY</li>
+                <li class="select__item" data-select="item">Авто</li>
+                <li class="select__item" data-select="item">Авторское</li>
+                <li class="select__item" data-select="item">Анбоксинг</li>
+                <li class="select__item" data-select="item">Еда</li>
+                <li class="select__item" data-select="item">Животные</li>
+                <li class="select__item" data-select="item">Игры</li>
+                <li class="select__item" data-select="item">Иностранные языки</li>
+                <li class="select__item" data-select="item">Кино</li>
+                <li class="select__item" data-select="item">Красота</li>
+              </ul>
             </div>
           </div>
         </div>
-
-        <div class="trends-article-wrapper">
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block1.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
           </article>
 
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block2.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
 
-            </div>
-          </article>
-
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block3.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block4.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block5.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block6.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block7.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
-          <article class="trends-article">
-            <img class="trends-images" alt="a garden on the sill rail" src="images/block8.svg">
-            <div class="trends-title">
-              <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
-              <div class="social_link-block">
-                <div class="social_link-wrapper">
-                  <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
-                </div>
-                <div class="social_link-wrapper">
-                  <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
-                </div>
-              </div>
-
-            </div>
-          </article>
-
+  <div class="trends-article-wrapper">
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block1.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
         </div>
-      </article>
 
-    </main>
-    <div class="block">
-      <span class="loading text">Подгружаем...</span>
-    </div>
-    <footer class="footer">
-      <div class="foooter_contacts_wrapper">
-        <a href="#0"><img src="images/logo.svg" alt="логотип" class="logo"></a>
-        <span class="text">Cвязаться с нами</span>
-        <a href="mailto:reklama@wildjam.ru"><span class="text">reklama@wildjam.ru</span></a>
-
-        <span class="text">ул. Сущевская, д. 27, стр. 2</span>
-        <a href="tel:+78007077733"><span class="text">+7 (499) 393-39-62</span></a>
       </div>
-      <div class="footer_social_links">
-        <img src="images/vk_icon.svg" alt="vk" style="padding: 0 40%;">
-        <img src="images/insta_icon.svg" alt="insta">
-      </div>
+    </article>
 
-    </footer>
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block2.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block3.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block4.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block5.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block6.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block7.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <article class="trends-article">
+      <img class="trends-images" alt="a garden on the sill rail" src="images/block8.svg">
+      <div class="trends-title">
+        <h3 class="trends-article-title text"><a href="blogger.html">Макс Максимов</a></h3>
+        <div class="social_link-block">
+          <div class="social_link-wrapper">
+            <img class="social_link-icon" src="images/youtube_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">3 160 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/vk_icon.svg" alt="youtube_icon" style="width: 24px;"> <span class="social_link-wrapper__subsnumber">134 000+</span>
+          </div>
+          <div class="social_link-wrapper">
+            <img src="images/insta_icon.svg" alt="youtube_icon"> <span class="social_link-wrapper__subsnumber">128 000+</span>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
   </div>
-  <script type="text/javascript">
 
-    function myFunction() {
-      drop1 = document.getElementById("myDropdown").classList.toggle("show");
-    }
 
-    window.onclick = function() {
-      if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
+  </main>
+  <div class="block">
+    <span class="loading text">Подгружаем...</span>
+  </div>
+  <footer class="footer">
+    <div class="foooter_contacts_wrapper">
+      <a href="#0"><img src="images/logo.svg" alt="логотип" class="logo"></a>
+      <span class="text">Cвязаться с нами</span>
+      <a href="mailto:reklama@wildjam.ru"><span class="text">reklama@wildjam.ru</span></a>
+
+      <span class="text">ул. Сущевская, д. 27, стр. 2</span>
+      <a href="tel:+78007077733"><span class="text">+7 (499) 393-39-62</span></a>
+    </div>
+    <div class="footer_social_links">
+      <img src="images/vk_icon.svg" alt="vk" style="padding: 0 40%;">
+      <img src="images/insta_icon.svg" alt="insta">
+    </div>
+
+  </footer>
+  </div>
+
+  <script>
+    (function() {
+      if (typeof window.CustomEvent === 'function') return false;
+
+      function CustomEvent(event, params) {
+        params = params || {
+          bubbles: false,
+          cancelable: false,
+          detail: null
+        };
+        var evt = document.createEvent('CustomEvent');
+        evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+        return evt;
+      }
+      window.CustomEvent = CustomEvent;
+    })();
+
+    const templateSelect = (data = [], defaultText = 'Выберите из списка') => {
+      let items = [];
+      data.forEach(item => {
+        let classItemSelected = '';
+        if (item === defaultText) {
+          classItemSelected = ' select__item_selected';
+        }
+        items.push(`<li class="select__item${classItemSelected}" data-select="item">${item}</li>`);
+      });
+      return `
+    <div class="select__backdrop" data-select="backdrop"></div>
+    <button type="button" class="select__trigger" data-select="trigger">
+      ${defaultText}
+    </button>
+    <div class="select__dropdown">
+      <ul class="select__items">
+        ${items.join('')}
+      </ul>
+    </div>`;
+    };
+
+    class CustomSelect {
+      constructor(selector, config) {
+        this._$main = document.querySelector(selector);
+        this._config = config || {};
+        if (this._config.data) {
+          this._render();
+        }
+        this._$trigger = this._$main.querySelector('[data-select="trigger"]');
+        this._addEventListener();
+      }
+      _isShow() {
+        return this._$main.classList.contains('select_show');
+      }
+      _changeItem(item) {
+        if (!item.classList.contains('select__item_selected')) {
+          const itemSelected = this._$main.querySelector('.select__item_selected');
+          if (itemSelected) {
+            itemSelected.classList.remove('select__item_selected');
           }
+          item.classList.add('select__item_selected');
+          this._$trigger.textContent = item.textContent;
+          this._$main.dispatchEvent(this._changeValue);
+          this._config.onSelected ? this._config.onSelected(item) : null;
         }
       }
+      _eventHandler(e) {
+        let $target = e.target;
+        let type = $target.dataset.select;
+        if (!type) {
+          $target = $target.closest('[data-select]');
+          type = $target.dataset.select;
+        }
+        if (type === 'trigger') {
+          this.toggle();
+        } else if (type === 'item') {
+          this._changeItem($target);
+          this.hide();
+        } else if (type === 'backdrop') {
+          // закрываем селект, если кликнули вне его
+          this.hide();
+        }
+      }
+      _addEventListener() {
+        // привяжем функцию _eventHandler к контексту this
+        this._eventHandler = this._eventHandler.bind(this);
+        // добавим слушатель
+        this._$main.addEventListener('click', this._eventHandler);
+        this._changeValue = new CustomEvent('select.change');
+      }
+      _render() {
+        // добавляем класс select, если его нет у базового элемента
+        if (!this._$main.classList.contains('select')) {
+          this._$main.classList.add('select');
+        }
+        this._$main.innerHTML = templateSelect(this._config['data'], this._config['defaultValue']);
+      }
+      show() {
+        this._$main.classList.add('select_show');
+      }
+      hide() {
+        this._$main.classList.remove('select_show');
+      }
+      toggle() {
+        this._isShow() ? this.hide() : this.show();
+      }
+      // удаляем слушатели и данный селект из DOM
+      destroy() {
+        this._$main.removeEventListener('click', this._eventHandler);
+        this._$main.innerHTML = '';
+      }
+      selectedItem(value) {
+        if (typeof value === 'object') {
+          if (value['value']) {
+            this._$main.querySelectorAll('[data-select="item"]').forEach($item => {
+              if ($item.textContent.trim() === value['value'].toString()) {
+                this._changeItem($item);
+                return;
+              }
+            });
+          } else if (value['index'] >= 0) {
+            const $item = this._$main.querySelectorAll('[data-select="item"]')[value['index']];
+            this._changeItem($item);
+          }
+          return this.selectedItem();
+        }
+        let indexSelected = -1;
+        let valueSelected = '';
+        this._$main.querySelectorAll('[data-select="item"]').forEach(($element, index) => {
+          if ($element.classList.contains('select__item_selected')) {
+            indexSelected = index;
+            valueSelected = $element.textContent;
+          }
+        });
+        return {
+          index: indexSelected,
+          value: valueSelected
+        };
+      }
     }
+
+
+    const select1 = new CustomSelect('.select', {
+      defaultValue: 'выберите площадку',
+      data: ['Например: Путешествия', 'Все', 'DIY', 'Авто', 'Авторское', 'Анбоксинг', 'Еда', 'Животные', 'Игры', 'Иностранные языки'],
+      onSelected(item) {
+        console.log(`Выбранное значение: ${item.textContent}`);
+      },
+    });
+
+    document.querySelector('.select').addEventListener('select.change', (e) => {
+      console.log(
+        `Выбранное значение: ${
+        e.target.querySelector('.select__item_selected').textContent
+        }`
+      );
+    });
   </script>
 </body>
 
